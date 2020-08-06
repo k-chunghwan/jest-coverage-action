@@ -7091,7 +7091,9 @@ const postComment = (commentToPost, githubToken, getOctokitParam) => __awaiter(v
         });
         const commentBody = `${exports.COMMENT_PREFIX}
 
-<details>${commentToPost}</details>`;
+\`\`\`
+${commentToPost}
+\`\`\``;
         core_1.info(`Comment to post:
 ${commentBody}`);
         if (existingComment === null || existingComment === void 0 ? void 0 : existingComment.id) {
