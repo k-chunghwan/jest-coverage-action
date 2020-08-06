@@ -1,4 +1,4 @@
-name: 'Jest Coverage Commenter'
+name: 'Jest Coverage Commenter + edit'
 description: 'Comment on PRs with Jest Coverage Information'
 author: 'Derek Kershner'
 inputs:
